@@ -5,7 +5,6 @@ const server = net.createServer(connection => {
     
     connection.on('data', data=>{
         console.log('=>', data.toString());
-        
     })
 })
 
